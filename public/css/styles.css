@@ -1,0 +1,49 @@
+.spotify-embed {
+  /*  display: none; */
+  width: 100%;
+  position: absolute;
+}
+
+.answer-cover-up {
+  width: 100%;
+  height: 180px;
+  background-color: blueviolet;
+  margin-top: 80px;
+  position: absolute;
+  z-index: 10;
+}
+
+.answer-cover-up-2 {
+  margin-left: 80px;
+  width: 75%;
+  height: 50px;
+  background-color: blueviolet;
+  position: absolute;
+  z-index: 20;
+}
+
+.player-container {
+  padding-top: 50px;
+  position: relative;
+  height: 260px;
+  width: 50%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.next {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 80%;
+}
+
+.quiz {
+  text-align: center;
+  margin-top: 100px;
+}

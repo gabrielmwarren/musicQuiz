@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Quiz</title>
+    <base href="/" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Music Quiz</h1>
+    <div class="player-container">
+      <iframe
+        id="spotify-embed"
+        class="spotify-embed"
+        src=""
+        width="50%"
+        height="260"
+        frameborder="0"
+        allowtransparency="true"
+      ></iframe>
+      <div class="answer-cover-up"></div>
+      <div class="answer-cover-up-2"></div>
+    </div>
+    <div class="quiz" id="quiz">
+      <% choices.forEach((item)=>{%>
+      <button type="button" class="btn btn-primary"><%=item%></button>
+      <%});%>
+    </div>
+    <p style="display: none; position: absolute" id="songTitle">
+      <%=songName%>
+    </p>
+    <button type="button" class="btn btn-info next" id="next">Next</button>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
