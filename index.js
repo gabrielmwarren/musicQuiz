@@ -10,10 +10,8 @@ const app = express();
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-let token =
-  "BQADpnTN3QL7bsRwh9cJr_NncUM7qSOsU8HxoaVhRzBTnZMredE3OnaQGu7tg20Y-9rTZotVPWInxt15Tfw";
+let token = "";
 let trackName = "";
-let date_ob = new Date();
 
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
