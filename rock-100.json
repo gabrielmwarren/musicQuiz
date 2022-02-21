@@ -1,0 +1,363 @@
+{
+  "songs": [
+    {
+      "rank": 1,
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "cover": "https://charts-static.billboard.com/img/2020/07/glass-animals-rtd-heat-waves-o3i-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 2,
+      "title": "abcdefu",
+      "artist": "GAYLE",
+      "cover": "https://charts-static.billboard.com/img/2021/11/gayle-000-abcdefu-xl2-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 3,
+      "title": "Enemy",
+      "artist": "Imagine Dragons X JID",
+      "cover": "https://charts-static.billboard.com/img/2021/11/imagine-dragons-ud7-enemy-e9r-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 4,
+      "title": "Meet Me At Our Spot",
+      "artist": "THE ANXIETY: WILLOW & Tyler Cole",
+      "cover": "https://charts-static.billboard.com/img/2021/06/the-anxiety-willow-and-tyler-cole-sf1-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 5,
+      "title": "Happier Than Ever",
+      "artist": "Billie Eilish",
+      "cover": "https://charts-static.billboard.com/img/2021/08/billie-eilish-lrt-happier-than-ever-z93-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 6,
+      "title": "Drunk (And I Don't Wanna Go Home)",
+      "artist": "Elle King & Miranda Lambert",
+      "cover": "https://charts-static.billboard.com/img/2021/03/elle-king-1lh-drunk-and-i-dont-wanna-go-home-awl-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 7,
+      "title": "Beggin'",
+      "artist": "Maneskin",
+      "cover": "https://charts-static.billboard.com/img/2017/12/maneskin-ews-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 8,
+      "title": "I Love You So",
+      "artist": "The Walters",
+      "cover": "https://charts-static.billboard.com/img/2021/10/the-walters-rtt-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 9,
+      "title": "Emo Girl",
+      "artist": "Machine Gun Kelly & WILLOW",
+      "cover": "https://charts-static.billboard.com/img/2022/02/machine-gun-kelly-3ma-emo-girl-xqm-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 10,
+      "title": "Black Summer",
+      "artist": "Red Hot Chili Peppers",
+      "cover": "https://charts-static.billboard.com/img/1984/09/red-hot-chili-peppers-s9k-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 11,
+      "title": "Infinity",
+      "artist": "Jaymes Young",
+      "cover": "https://charts-static.billboard.com/img/2014/04/jaymes-young-ctm-106x106.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 12,
+      "title": "Notion",
+      "artist": "The Rare Occasions",
+      "cover": "https://charts-static.billboard.com/img/2021/11/the-rare-occasions-4sz-notion-6rj-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 13,
+      "title": "The Rumbling",
+      "artist": "SiM",
+      "cover": "https://charts-static.billboard.com/img/2022/01/sim-000-the-rumbling-7z6-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 14,
+      "title": "My Universe",
+      "artist": "Coldplay x BTS",
+      "cover": "https://charts-static.billboard.com/img/2021/10/coldplay-bm3-my-universe-nkd-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 15,
+      "title": "Alien Blues",
+      "artist": "Vundabar",
+      "cover": "https://charts-static.billboard.com/img/2021/12/vundabar-4d5-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 16,
+      "title": "Toxic",
+      "artist": "BoyWithUke",
+      "cover": "https://charts-static.billboard.com/img/2021/10/boywithuke-ryx-toxic-jyb-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 17,
+      "title": "Life Goes On",
+      "artist": "Oliver Tree",
+      "cover": "https://charts-static.billboard.com/img/2017/06/oliver-tree-tr5-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 18,
+      "title": "Right Down The Line",
+      "artist": "Gerry Rafferty",
+      "cover": "https://charts-static.billboard.com/img/1978/08/gerry-rafferty-6ce-right-down-the-line-3dy-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 19,
+      "title": "Loser",
+      "artist": "Sueco",
+      "cover": "https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif",
+      "position": ["Object"]
+    },
+    {
+      "rank": 20,
+      "title": "Looking Out For You",
+      "artist": "Joy Again",
+      "cover": "https://charts-static.billboard.com/img/2021/12/joy-again-000-looking-out-for-you-kqz-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 21,
+      "title": "Thought It Was",
+      "artist": "iann dior, Travis Barker & Machine Gun Kelly",
+      "cover": "https://charts-static.billboard.com/img/2019/11/iann-dior-7d9-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 22,
+      "title": "Zombified",
+      "artist": "Falling In Reverse",
+      "cover": "https://charts-static.billboard.com/img/2022/01/falling-in-reverse-sbn-zombified-w4i-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 23,
+      "title": "Stay Soft",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2016/03/mitski-lwe-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 24,
+      "title": "Bite Me",
+      "artist": "Avril Lavigne",
+      "cover": "https://charts-static.billboard.com/img/2021/11/avril-lavigne-yga-bite-me-x02-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 25,
+      "title": "Hayloft II",
+      "artist": "Mother Mother",
+      "cover": "https://charts-static.billboard.com/img/2022/02/mother-mother-fg4-hayloft-ii-emg-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 26,
+      "title": "Love It When You Hate Me",
+      "artist": "Avril Lavigne Featuring blackbear",
+      "cover": "https://charts-static.billboard.com/img/2002/04/avril-lavigne-yga-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 27,
+      "title": "Watercolor Eyes",
+      "artist": "Lana Del Rey",
+      "cover": "https://charts-static.billboard.com/img/2022/02/lana-del-rey-45t-watercolor-eyes-oia-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 28,
+      "title": "Record Player",
+      "artist": "Daisy The Great X AJR",
+      "cover": "https://charts-static.billboard.com/img/2021/09/daisy-the-great-000-record-player-ovs-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 29,
+      "title": "Heaven Help Me",
+      "artist": "Zach Williams",
+      "cover": "https://charts-static.billboard.com/img/2019/09/zach-williams-dvc-heaven-help-me-od4-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 30,
+      "title": "This Side Of Paradise",
+      "artist": "Coyote Theory",
+      "cover": "https://www.billboard.com/wp-content/themes/vip/pmc-billboard-2021/assets/public/lazyload-fallback.gif",
+      "position": ["Object"]
+    },
+    {
+      "rank": 31,
+      "title": "Valentine, Texas",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2016/03/mitski-lwe-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 32,
+      "title": "Love Me More",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2022/01/mitski-lwe-love-me-more-ezd-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 33,
+      "title": "Cowboys Don't Cry",
+      "artist": "Oliver Tree",
+      "cover": "https://charts-static.billboard.com/img/2022/01/oliver-tree-tr5-cowboys-dont-cry-73j-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 34,
+      "title": "Something About You",
+      "artist": "Eyedress Featuring Dent May",
+      "cover": "https://charts-static.billboard.com/img/2021/12/eyedress-zno-something-about-you-nks-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 35,
+      "title": "Could Have Been Me",
+      "artist": "Halsey",
+      "cover": "https://charts-static.billboard.com/img/2014/10/halsey-m8j-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 36,
+      "title": "The Only Heartbreaker",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2021/11/mitski-lwe-the-only-heartbreaker-k9u-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 37,
+      "title": "Working For The Knife",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2021/10/mitski-lwe-working-for-the-knife-p0z-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 38,
+      "title": "The Outside",
+      "artist": "twenty one pilots",
+      "cover": "https://charts-static.billboard.com/img/2012/10/twenty-one-pilots-tfi-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 39,
+      "title": "Taking Me Back",
+      "artist": "Jack White",
+      "cover": "https://charts-static.billboard.com/img/2021/10/jack-white-6m3-taking-me-back-6i7-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 40,
+      "title": "Keep It Up",
+      "artist": "Rex Orange County",
+      "cover": "https://charts-static.billboard.com/img/2017/07/rex-organge-county-bcn-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 41,
+      "title": "Should've Been Me",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2016/03/mitski-lwe-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 42,
+      "title": "So Called Life",
+      "artist": "Three Days Grace",
+      "cover": "https://charts-static.billboard.com/img/2021/12/three-days-grace-mnn-so-called-life-wqx-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 43,
+      "title": "Fall In Love With You.",
+      "artist": "Montell Fish",
+      "cover": "https://charts-static.billboard.com/img/2021/12/montell-fish-2b2-fall-in-love-with-you-4ql-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 44,
+      "title": "Haunted",
+      "artist": "Laura Les",
+      "cover": "https://charts-static.billboard.com/img/2022/01/laura-les-000-haunted-38n-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 45,
+      "title": "Son Of A Sinner",
+      "artist": "Jelly Roll",
+      "cover": "https://charts-static.billboard.com/img/2011/12/jelly-roll-54d-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 46,
+      "title": "Nuts",
+      "artist": "Lil Peep Featuring rainy bear",
+      "cover": "https://charts-static.billboard.com/img/2022/01/lil-peep-tnx-nuts-8cx-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 47,
+      "title": "Sunroof",
+      "artist": "Nicky Youre & Dazy",
+      "cover": "https://charts-static.billboard.com/img/2022/02/nicky-youre-000-sunroof-3kv-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 48,
+      "title": "Start The Healing",
+      "artist": "Korn",
+      "cover": "https://charts-static.billboard.com/img/2021/11/korn-000-start-the-healing-srk-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 49,
+      "title": "Last Day On Earth",
+      "artist": "Tai Verdes",
+      "cover": "https://charts-static.billboard.com/img/2022/01/tai-verdes-6xv-last-day-on-earth-moe-180x180.jpg",
+      "position": ["Object"]
+    },
+    {
+      "rank": 50,
+      "title": "Heat Lightning",
+      "artist": "Mitski",
+      "cover": "https://charts-static.billboard.com/img/2022/02/mitski-lwe-heat-lightning-duw-180x180.jpg",
+      "position": ["Object"]
+    }
+  ],
+  "week": "2022-02-19",
+  "previousWeek": {
+    "date": "2022-02-12",
+    "url": "http://www.billboard.com/charts/rock-songs/2022-02-12"
+  },
+  "nextWeek": {
+    "date": "2022-02-26",
+    "url": "http://www.billboard.com/charts/rock-songs/2022-02-26"
+  }
+}

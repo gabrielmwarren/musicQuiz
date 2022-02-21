@@ -9,6 +9,7 @@
   "author": "Gabriel Warren",
   "license": "ISC",
   "devDependencies": {
+    "billboard-top-100": "^2.6.2",
     "nodemon": "^2.0.15"
   },
   "dependencies": {

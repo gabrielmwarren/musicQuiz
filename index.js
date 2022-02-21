@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require("path");
+var url = require("url");
 const fs = require("fs");
 const SpotifyWebApi = require("spotify-web-api-node");
 
@@ -12,6 +13,7 @@ app.set("views", path.join(__dirname, "views"));
 
 let token = "";
 let trackName = "";
+let playlist = "";
 
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
@@ -29,7 +31,7 @@ function getRandomNum(min, max) {
 
 app.get("/next", (req, res) => {
   spotifyApi
-    .getPlaylistTracks("3JoHkM90TXzfIS1RMN0Cgd", {
+    .getPlaylistTracks(playlist, {
       offset: 1,
       limit: 100,
       fields: "items",
@@ -58,8 +60,25 @@ app.get("/next", (req, res) => {
     );
 });
 
+app.get("/start", (req, res) => {
+  var q = url.parse(
+    req.protocol + "://" + req.get("host") + req.originalUrl,
+    true
+  );
+  playlist = q.query.playlist;
+  res.redirect(`http://localhost:8080/next`);
+});
+
 app.get("/quiz", (req, res) => {
-  const rawdata = fs.readFileSync("billboard-100.json");
+  let using100 = false;
+  if (playlist === "3w8uoe0f8xPPw7p774kQtX") {
+    var rawdata = fs.readFileSync("hip-hop-100.json");
+  } else if (playlist === "7nKdJLVjj5fzWw2u3xlbVm") {
+    var rawdata = fs.readFileSync("rock-100.json");
+  } else {
+    var rawdata = fs.readFileSync("billboard-100.json");
+    using100 = true;
+  }
   const list = JSON.parse(rawdata);
   const ansrLocation = getRandomNum(0, 4);
   let trackList = [];
@@ -67,7 +86,11 @@ app.get("/quiz", (req, res) => {
     if (index === ansrLocation) {
       trackList.push(trackName);
     } else {
-      trackList.push(list.songs[getRandomNum(0, 100)].title);
+      if (using100) {
+        trackList.push(list.songs[getRandomNum(0, 100)].title);
+      } else {
+        trackList.push(list.songs[getRandomNum(0, 50)].title);
+      }
     }
   }
   res.render("index", { songName: trackName, choices: trackList });

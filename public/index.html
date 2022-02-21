@@ -11,6 +11,29 @@
   <body>
     <h1>Music Quiz</h1>
     <div class="d-grid gap-2 play-btn">
+      <div class="form-group">
+        <label for="playlistSelect" class="form-label mt-4">Playlist</label>
+        <select class="form-select" id="playlistSelect">
+          <option>Top 40 Global</option>
+          <option>Rap/Hip-Hop 2022</option>
+          <option>Classic Rock</option>
+          <option>Custom</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="col-form-label mt-4" for="playlistInput"
+          >Custom Playlist</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          placeholder="eg: https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M"
+          id="playlistInput"
+        />
+        <p style="font-size: 13px; padding-top: 5px">
+          Only works if custom is selected
+        </p>
+      </div>
       <button class="btn btn-lg btn-primary" type="button" id="play-btn">
         Play
       </button>
