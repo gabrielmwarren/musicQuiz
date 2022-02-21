@@ -1,7 +1,10 @@
+// This file is copied from: https://github.com/thelinmichael/spotify-web-api-node/blob/master/examples/tutorial/00-get-access-token.js
+
 var SpotifyWebApi = require("spotify-web-api-node");
 const express = require("express");
 
-// This file is copied from: https://github.com/thelinmichael/spotify-web-api-node/blob/master/examples/tutorial/00-get-access-token.js
+require("dotenv").config();
+
 
 const scopes = [
   "ugc-image-upload",
@@ -25,8 +28,8 @@ const scopes = [
   "user-follow-modify",
 ];
 
-var clientId = "942517e4cad94f04b4c0821e57f0e025",
-  clientSecret = "8cb3e505ff044115b613e13eb4f6cf34";
+var clientId = process.env.CLIENT_ID,
+  clientSecret = process.env.CLIENT_SECRET,
 
 // credentials are optional
 var spotifyApi = new SpotifyWebApi({
