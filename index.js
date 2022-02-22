@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-var url = require("url");
+const url = require("url");
 const fs = require("fs");
 const SpotifyWebApi = require("spotify-web-api-node");
 
