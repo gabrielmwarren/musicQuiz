@@ -10,6 +10,29 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div id="incorrect" class="incorrect">
+      <div class="alert alert-dismissible alert-primary">
+        <button
+          type="button"
+          class="btn-close"
+          id="incorrectBtnClose"
+          data-bs-dismiss="alert"
+        ></button>
+        <strong>Incorrect!</strong>
+        It was <%=songName%>
+      </div>
+    </div>
+    <div id="correct" class="correct">
+      <div class="alert alert-dismissible alert-success">
+        <button
+          type="button"
+          class="btn-close"
+          id="correctBtnClose"
+          data-bs-dismiss="alert"
+        ></button>
+        <strong>Well done!</strong> You got it right!
+      </div>
+    </div>
     <header>
       <h1 style="margin-top: 5px">Music Quiz</h1>
     </header>

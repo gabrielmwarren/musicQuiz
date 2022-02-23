@@ -57,3 +57,11 @@ h1 {
 header {
   border-bottom: 1px solid white;
 }
+
+.incorrect,
+.correct {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  display: none;
+}
