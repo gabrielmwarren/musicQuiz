@@ -39,10 +39,10 @@ for (let index = 0; index < choiceBtns.length; index++) {
     const text = choiceBtns[index].innerText;
     if (text === correctAnswer) {
       correctAlert.style.display = "block";
-      window.location.href = "http://localhost:8080/next";
+      window.location.href = "http://localhost:8080/next?correct=true";
     } else {
       wrongAlert.style.display = "block";
-      window.location.href = "http://localhost:8080/next";
+      window.location.href = "http://localhost:8080/next?correct=false";
     }
   });
 }

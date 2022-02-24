@@ -34,7 +34,14 @@
       </div>
     </div>
     <header>
-      <h1 style="margin-top: 5px">Music Quiz</h1>
+      <h1 style="margin-top: 5px; display: inline-block">Music Quiz</h1>
+      <h3 style="display: inline-block; margin-left: 20px">
+        <span class="badge bg-success"><%=correct%></span>
+        /
+      </h3>
+      <h3 style="display: inline-block; margin-left: 5px">
+        <span class="badge bg-primary"><%=total%></span>
+      </h3>
     </header>
     <div class="player-container">
       <iframe

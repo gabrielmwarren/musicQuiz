@@ -14,6 +14,8 @@ app.set("views", path.join(__dirname, "views"));
 let token = "";
 let trackName = "";
 let playlist = "";
+let correctAnsrs = 0;
+let totalAnsrs = 0;
 
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
@@ -30,6 +32,16 @@ function getRandomNum(min, max) {
 }
 
 app.get("/next", (req, res) => {
+  var q = url.parse(
+    req.protocol + "://" + req.get("host") + req.originalUrl,
+    true
+  );
+  if (q.query.correct === "true") {
+    correctAnsrs++;
+    totalAnsrs++;
+  } else if (q.query.correct === "false") {
+    totalAnsrs++;
+  }
   spotifyApi
     .getPlaylistTracks(playlist, {
       offset: 1,
@@ -41,7 +53,7 @@ app.get("/next", (req, res) => {
         let playlistIndex = getRandomNum(0, data.body.items.length);
         trackName = data.body.items[playlistIndex].track.name;
         res.redirect(
-          `http://localhost:8080/quiz/?uri=${data.body.items[playlistIndex].track.uri}`
+          `http://localhost:8080/quiz?uri=${data.body.items[playlistIndex].track.uri}`
         );
       },
       function (err) {
@@ -66,6 +78,8 @@ app.get("/start", (req, res) => {
     true
   );
   playlist = q.query.playlist;
+  correctAnsrs = 0;
+  totalAnsrs = 0;
   res.redirect(`http://localhost:8080/next`);
 });
 
@@ -93,7 +107,12 @@ app.get("/quiz", (req, res) => {
       }
     }
   }
-  res.render("index", { songName: trackName, choices: trackList });
+  res.render("index", {
+    songName: trackName,
+    choices: trackList,
+    correct: correctAnsrs,
+    total: totalAnsrs,
+  });
 });
 
 app.use(express.static(__dirname + "/public")); //__dir and not _dir
