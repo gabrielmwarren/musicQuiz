@@ -51,6 +51,9 @@ app.get("/next", (req, res) => {
     .then(
       function (data) {
         let playlistIndex = getRandomNum(0, data.body.items.length);
+        if (data.body.items[playlistIndex].explicit) {
+          res.redirect(`http://localhost:8080/next`);
+        }
         trackName = data.body.items[playlistIndex].track.name;
         res.redirect(
           `http://localhost:8080/quiz?uri=${data.body.items[playlistIndex].track.uri}`
