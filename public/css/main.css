@@ -8,3 +8,15 @@ h1 {
   width: 50%;
   margin-left: 25%;
 }
+
+.change-theme {
+  margin-left: 85%;
+}
+
+.settings-menu {
+  display: none;
+  position: absolute;
+  margin-left: 10%;
+  width: 80%;
+  z-index: 10;
+}

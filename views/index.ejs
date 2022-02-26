@@ -19,7 +19,8 @@
           data-bs-dismiss="alert"
         ></button>
         <strong>Incorrect!</strong>
-        It was <%=songName%>
+        It was <span id="incorrectSongName"><%=songName%></span> by
+        <span id="incorrectArtists"><%=artists%></span>
       </div>
     </div>
     <div id="correct" class="correct">
@@ -30,7 +31,9 @@
           id="correctBtnClose"
           data-bs-dismiss="alert"
         ></button>
-        <strong>Well done!</strong> You got it right!
+        <strong>Well done!</strong> You got it right! It was
+        <span id="correctSongName"><%=songName%></span> by
+        <span id="correctArtists"><%=artists%></span>
       </div>
     </div>
     <header>
@@ -70,7 +73,11 @@
         <%=choices[3]%>
       </button>
     </div>
-    <p style="font-size: 1px" id="songTitle"><%=songName%></p>
+    <p style="font-size: 0.1px" id="songTitle"><%=songName%></p>
+    <p style="font-size: 0.1px" id="isCorrect"><%=isCorrect%></p>
+    <p style="font-size: 0.1px" id="last"><%=lastAnswer%></p>
+    <p style="font-size: 0.1px" id="artists"><%=artists%></p>
+    <p style="font-size: 0.1px" id="lastArtists"><%=lastArtists%></p>
     <button type="button" class="btn btn-info home" id="home">Home</button>
     <button type="button" class="btn btn-info next" id="next">Next</button>
 

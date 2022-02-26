@@ -1,6 +1,17 @@
 const playBtn = document.getElementById("play-btn");
+const settingsOpen = document.getElementById("settingsBtn");
+const settingsClose = document.getElementById("closeBtn");
+const settings = document.getElementById("settings");
 const playlistSelect = document.getElementById("playlistSelect");
 const playlistInput = document.getElementById("playlistInput");
+
+settingsOpen.addEventListener("click", () => {
+  settings.style.display = "block";
+});
+
+settingsClose.addEventListener("click", () => {
+  settings.style.display = "none";
+});
 
 function getPlaylistID() {
   if (playlistSelect.value === "Top 50 Global") {

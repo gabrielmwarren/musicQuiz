@@ -16,6 +16,10 @@ let trackName = "";
 let playlist = "";
 let correctAnsrs = 0;
 let totalAnsrs = 0;
+let isCorrect;
+let answers = [];
+let artists = [];
+let artistsList = [];
 
 const spotifyApi = new SpotifyWebApi({
   clientId: process.env.CLIENT_ID,
@@ -39,8 +43,10 @@ app.get("/next", (req, res) => {
   if (q.query.correct === "true") {
     correctAnsrs++;
     totalAnsrs++;
+    isCorrect = true;
   } else if (q.query.correct === "false") {
     totalAnsrs++;
+    isCorrect = false;
   }
   spotifyApi
     .getPlaylistTracks(playlist, {
@@ -55,6 +61,18 @@ app.get("/next", (req, res) => {
           res.redirect(`http://localhost:8080/next`);
         }
         trackName = data.body.items[playlistIndex].track.name;
+        answers.push(trackName);
+        artists = [];
+        for (
+          let index = 0;
+          index < data.body.items[playlistIndex].track.artists.length;
+          index++
+        ) {
+          artists.push(
+            data.body.items[playlistIndex].track.artists[index].name
+          );
+        }
+        artistsList.push(artists);
         res.redirect(
           `http://localhost:8080/quiz?uri=${data.body.items[playlistIndex].track.uri}`
         );
@@ -76,6 +94,7 @@ app.get("/next", (req, res) => {
 });
 
 app.get("/start", (req, res) => {
+  isCorrect = null;
   var q = url.parse(
     req.protocol + "://" + req.get("host") + req.originalUrl,
     true
@@ -115,6 +134,10 @@ app.get("/quiz", (req, res) => {
     choices: trackList,
     correct: correctAnsrs,
     total: totalAnsrs,
+    isCorrect: isCorrect,
+    lastAnswer: answers[answers.length - 2],
+    artists: artists,
+    lastArtists: artistsList[artistsList.length - 2],
   });
 });
 
